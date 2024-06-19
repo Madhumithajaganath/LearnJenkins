@@ -12,7 +12,7 @@ public class PracticeTest {
 	public void launchLinekdin() {
 		WebDriver driver= new ChromeDriver();
 		driver.get("https://in.linkedin.com/");
-		Reporter.log("Executed", true);
+		Reporter.log("Executed linkedin", true);
 		driver.quit();
 	}
 	@Test
